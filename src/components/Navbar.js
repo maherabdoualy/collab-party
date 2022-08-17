@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import Temple from "../assets/temple.svg";
+import Party from "../assets/party.svg";
 import { Link } from "react-router-dom";
 import React from "react";
 import { useLogout } from "../hooks/useLogout";
@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="navbar">
       <ul>
         <li className="logo">
-          <img src={Temple} alt="collab party logo" />
+          <img src={Party} alt="collab party logo" />
           <span>Collab Party</span>
         </li>
 
