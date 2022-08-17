@@ -3,6 +3,7 @@ import { useDocument } from "../../hooks/useDocument";
 
 // styles
 import "./Project.css";
+import ProjectComments from "./ProjectComments";
 import ProjectSummary from "./ProjectSummary";
 
 export default function Project() {
@@ -19,6 +20,7 @@ export default function Project() {
   return (
     <div className="project-details">
       <ProjectSummary project={document} />
+      <ProjectComments project={document} />
     </div>
   );
 }
